@@ -19,20 +19,21 @@ const nav = document.querySelector("nav"); //Navエレメントを選択する
 #### スクロールコード
 
 スクロール距離を 50px に設定されたが、数字変更可能。
-···
+
+```
 if (window.scrollY > 50) {
 //50px 以上スクロールの場合行うコード
 } else {
 //50px 以内スクロールの場合行うコード
 }
-···
+```
 
 #### コード内容
 
-···
+```
 Variable 名.classList.add("CSS クラス名") // Variable 対応のエレメントに CSS クラスを追加する
 Variable 名.classList.remove("CSS クラス名") // Variable 対応のエレメントから CSS クラスを外す
-···
+```
 
 ## 2.SCSS 利用方法
 
